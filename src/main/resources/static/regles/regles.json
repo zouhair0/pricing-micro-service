@@ -1,0 +1,29 @@
+[
+	{
+        "regle" : {
+            "id" : 1,
+            "name" : "Premiere régle",
+            "restrictions" : {
+            	"@or" : [
+			         {
+			            "mission.duration" : {
+			               "gt" : "2months"
+			            }
+			         },
+			         {
+			            "commercialrelation.duration" : {
+			               "gt" : "2months"
+			            }
+			         }
+			    ],
+	            "clientLocation" : {
+	            	"country" : "Espagne"
+	            },
+	            "freelanceLocation" : {
+	            	"country" : "Espagne"
+            	}
+            },
+            "rate" : "7"
+        }
+    }
+]
